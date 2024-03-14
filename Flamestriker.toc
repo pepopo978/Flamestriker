@@ -1,0 +1,6 @@
+## Interface: 11200
+## Version: 1.0
+## Title: Flamestriker
+## Notes: Alternates flamestrike ranks to maximize damage
+
+Flamestriker.lua
