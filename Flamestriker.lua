@@ -10,8 +10,8 @@ fstrike.lastMaxRank = 0
 
 fstrike.flamestrike = function()
     local currentTime = GetTime()
-    -- check if at least 5 seconds since last max rank
-    if currentTime - fstrike.lastMaxRank >= 5 then
+    -- check if at least 4 seconds since last max rank
+    if currentTime - fstrike.lastMaxRank >= 4 then
         CastSpellByName("Flamestrike(Rank 6)")
         fstrike.lastMaxRank = currentTime
     else
